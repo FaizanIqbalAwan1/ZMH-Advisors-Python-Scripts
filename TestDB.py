@@ -1,12 +1,12 @@
 import psycopg2
 from psycopg2 import sql
 
-# Update these values
-host = 'zmh-backend-dev-db.cvei2auyqjhj.us-west-2.rds.amazonaws.com'
+# Update these values    // Please Add DB Creds
+host = '/'
 port = '5432'
-user = 'faizan_readonly'
-password = 'Faizan#123'
-default_db = 'zmh'  # start with the default DB
+user = '/'
+password = ''
+default_db = ''  # start with the default DB
 
 try:
     # Connect to the default database

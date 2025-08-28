@@ -7,16 +7,7 @@ input_file = "Russell3000 Feb 2025(Upcoming shareholder meeting).xlsx"
 output_file = "Prod_2024_2025_Validation_Input_Russell3000_DB_Match_Output.xlsx"
 
 DB_CONFIG = {
-    # 'host': 'zmh-backend-dev-db.cvei2auyqjhj.us-west-2.rds.amazonaws.com',
-    # 'port': '5432',
-    # 'user': 'faizan_readonly',
-    # 'password': 'Faizan#123',
-    # 'dbname': 'zmh'
-    'host': 'zmh-backend-prod-db.cvei2auyqjhj.us-west-2.rds.amazonaws.com',
-    'port': '5432',
-    'user': 'faizan_prod',
-    'password': 'FaizanPG#123',
-    'dbname': 'zmh'
+    #   // Please Add DB Creds
 }
 
 # --- Load Excel ---

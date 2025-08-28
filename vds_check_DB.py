@@ -4,16 +4,7 @@ import psycopg2
 # --- Config ---
 output_file = "Prod_VDS_CHECK_Multiple_Country_2024_2025_Russell3000_DB_FetchedData.xlsx"
 DB_CONFIG = {
-# 'host': 'zmh-backend-dev-db.cvei2auyqjhj.us-west-2.rds.amazonaws.com',
-#     'port': '5432',
-#     'user': 'faizan_readonly',
-#     'password': 'Faizan#123',
-#     'dbname': 'zmh'
-    'host': 'zmh-backend-prod-db.cvei2auyqjhj.us-west-2.rds.amazonaws.com',
-    'port': '5432',
-    'user': 'faizan_prod',
-    'password': 'FaizanPG#123',
-    'dbname': 'zmh'
+#    // Please Add DB Creds
 }
 # --- SQL Query ---
 query = """

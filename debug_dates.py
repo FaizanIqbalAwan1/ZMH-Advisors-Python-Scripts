@@ -4,11 +4,7 @@ from datetime import datetime, date
 
 # Database credentials
 DB_CONFIG = {
-    'host': 'zmh-backend-dev-db.cvei2auyqjhj.us-west-2.rds.amazonaws.com',
-    'port': '5432',
-    'user': 'faizan_readonly',
-    'password': 'Faizan#123',
-    'dbname': 'zmh'
+    #    // Please Add DB Creds
 }
 
 def debug_dates():
